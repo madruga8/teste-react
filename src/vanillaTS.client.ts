@@ -14,7 +14,7 @@ function Counter() {
 
     function render() {
         p.textContent = `You clicked ${count} times`;
-        alert("renderizo")
+        // alert("renderizo")
     }
 
     return {

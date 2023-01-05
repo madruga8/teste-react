@@ -20,7 +20,7 @@ function Counter() {
     div.appendChild(button);
     function render() {
         p.textContent = `You clicked ${count} times`;
-        alert("renderizo");
+        // alert("renderizo")
     }
     return {
         increment: () => {
